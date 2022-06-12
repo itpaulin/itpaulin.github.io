@@ -21,8 +21,9 @@ figure img{
 }
 
 #table {
-    width: 350px;
-    height: 150px;
+    width: 380px;
+    height: 230px;
+    margin: 0px;
 }
 
 .titulo {
@@ -32,5 +33,6 @@ figure img{
 
 .nottitulo {
     background-color: rgb(241, 241, 208);
-    color: red
+    color: red;
+    text-align: center;
 }
