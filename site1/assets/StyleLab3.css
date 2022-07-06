@@ -1,42 +1,43 @@
-header ul{
+header ul {
     display: flex;
-    list-style: none;  
-    justify-content: center; 
-    text-align: center;  
+    list-style: none;
+    justify-content: center;
+    text-align: center;
 }
-header ul li{
+
+header ul li {
     width: 100%;
     padding-left: 25px;
     padding-right: 25px;
     padding: 5px;
 }
 
-section{
+section {
     background-color: #f4f4f4;
     display: flex;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.LadoEsquerdo{
+.LadoEsquerdo {
     padding: 20px;
     width: 600px;
 }
 
-.Raposa img{
+.Raposa img {
     clip-path: polygon(5% 25%, 50% 0, 95% 25%, 95% 75%, 50% 100%, 5% 75%);
 }
 
-.bloco1{
+.bloco1 {
     border: solid black 1px;
     margin: 5px;
 }
 
-.imgEsquerdo{
+.imgEsquerdo {
     width: 100%;
 }
 
-.icone{
+.icone {
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
@@ -44,50 +45,53 @@ section{
     justify-content: space-between;
 }
 
-.icone img{
+.icone img {
     clip-path: circle(50% at 50% 50%);
     height: 50px;
 }
 
-.bloco2{
+.bloco2 {
     background-color: white;
     margin: 20px;
     display: flex;
     height: 95px;
 }
 
-button{
+button {
     height: 50px;
 }
 
-.central{
+.central {
     background-color: white;
     border: solid black 1px;
     width: 1200px;
 }
 
-.central2{
+.central2 {
     text-align: center;
     display: flex;
 }
 
-.data{
+.data {
     padding-right: 110px;
 }
-.Jane{
+
+.Jane {
     text-align: center;
     display: flex;
 }
-.data img{
+
+.data img {
 
     clip-path: circle(50% at 50% 50%);
     height: 50px;
 }
 
-.subCentral{
+.subCentral {
     padding: 15px;
     margin-top: 180px;
 }
-.subCentral img{
+
+.subCentral img {
     width: 100%;
 }
