@@ -92,3 +92,80 @@ button05.addEventListener("click", () => {
     const percent = obtemValor("#val09")
     escreveValor("#result05", calculaSalario(num1, percent))
 })
+
+const button06 = document.querySelector("#carrin")
+
+const calculaCustoFinal = (valor) => {
+
+    return valor + ((valor * 0.28) + (valor * 0.45));
+
+}
+
+button06.addEventListener("click", () => {
+
+    const valor = obtemValor("#val10")
+    escreveValor("#result06", calculaCustoFinal(valor));
+
+})
+
+const button07 = document.querySelector("#dindin")
+
+const calculaSalarioVendedor = (carrosVendidos, valorTotalVendas, salarioFixo, porcentagemCarro) => {
+
+    return salarioFixo + ((porcentagemCarro / 100) * carrosVendidos) + (valorTotalVendas * 0.05);
+
+}
+
+button07.addEventListener("click", () => {
+    const carrosVendidos = obtemValor("#val11")
+    const valorTotalVendas = obtemValor("#val12")
+    const salarioFixo = obtemValor("#val13")
+    const porcentagemCarro = obtemValor("#val14")
+
+    escreveValor("#result07", calculaSalarioVendedor(carrosVendidos, valorTotalVendas, salarioFixo, porcentagemCarro));
+
+})
+
+const button08 = document.querySelector("#temp")
+
+const converteFtoC = (graus) => {
+
+    return ((graus - 32) / 9) * 5;
+}
+
+button08.addEventListener("click", () => {
+
+    const grausF = obtemValor("#val15")
+    escreveValor("#result08", converteFtoC(grausF).toFixed(2))
+
+})
+
+const button09 = document.querySelector("#media")
+
+const calcularMedia = (n1, n2, n3) => {
+
+    return ((n1 * 2) + (n2 * 3) + (n3 * 5)) / 10
+
+}
+
+button09.addEventListener("click", () => {
+
+    const n1 = obtemValor("#val16")
+    const n2 = obtemValor("#val17")
+    const n3 = obtemValor("#val18")
+
+    escreveValor("#result09", calcularMedia(n1, n2, n3))
+
+})
+
+const button10 = document.querySelector("#maca")
+
+const calculaCustoCompra = (n) => {
+    if (n < 12) return n * 1.30;
+    else if (n >= 12) return n;
+}
+
+button10.addEventListener("click", () => {
+    const macas = obtemValor("#val19")
+    escreveValor("#result10", calculaCustoCompra(macas).toFixed(2));
+})
