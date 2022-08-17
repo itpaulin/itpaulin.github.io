@@ -1,0 +1,68 @@
+h1 {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  font-style: normal;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#armazem {
+  text-emphasis-color: red;
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+}
+
+#armazem h2 {
+  color: red;
+  -webkit-box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff,
+    20px 0px 0px -10px #ffffff, -20px 0px 0px -10px #ffffff,
+    0px 0px 0px 10px #ff0000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff,
+    20px 0px 0px -10px #ffffff, -20px 0px 0px -10px #ffffff,
+    0px 0px 0px 10px #ff0000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+#armazem a {
+  color: red;
+}
+
+#distribuicao h2 {
+  color: blue;
+  -webkit-box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff,
+    20px 0px 0px -10px #ffffff, -20px 0px 0px -10px #ffffff,
+    0px 0px 0px 10px #ff0000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff,
+    20px 0px 0px -10px #ffffff, -20px 0px 0px -10px #ffffff,
+    0px 0px 0px 10px #faf610, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+#distribuicao a {
+  color: blue;
+}
+
+#oficina h2 {
+  color: coral;
+  -webkit-box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff,
+    20px 0px 0px -10px #ffffff, -20px 0px 0px -10px #ffffff,
+    0px 0px 0px 10px #ff0000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff,
+    20px 0px 0px -10px #ffffff, -20px 0px 0px -10px #ffffff,
+    0px 0px 0px 10px #19be87, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+#oficina a {
+  color: coral;
+}
+
+li {
+  padding: 10px;
+}
