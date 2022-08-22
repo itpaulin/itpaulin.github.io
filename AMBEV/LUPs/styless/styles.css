@@ -4,7 +4,9 @@ h1 {
 
 li {
   list-style: none;
+  text-align: center;
   font-style: normal;
+  padding: 10px;
 }
 
 a {
@@ -61,8 +63,4 @@ a {
 
 #oficina a {
   color: coral;
-}
-
-li {
-  padding: 10px;
 }
