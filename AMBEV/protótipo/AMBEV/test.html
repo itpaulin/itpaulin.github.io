@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./LUPs/styless/new.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="box">
+      <ul class="list">
+        <li class="list-item">
+          <div class="list-header" onclick="show(0);">
+            <h2 class="list-title">Título</h2>
+            <i class="list-icon fa-solid fa-angle-down"></i>
+          </div>
+          <div class="list-content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+              perspiciatis dignissimos ullam voluptas ea hic minus omnis eum
+              magnam! Amet nemo quasi sint, quisquam odit expedita nesciunt
+              quam. Deserunt, molestiae?
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <script type="text/javascript">
+      function show(n) {
+        const list_content = document.getElementsByClassName("list-content");
+
+        list_content[n].classList.toggle("actived");
+      }
+    </script>
+  </body>
+</html>
+
+<div id="armazem">
+  <ul class="list">
+    <li class="list-item">
+      <div class="list-header" onclick="show(0);">
+        <h2 id="armazemT" class="list-title">ARMAZÉM</h2>
+        <i class="list-icon fa-solid fa-angle-down"></i>
+      </div>
+      <div class="list-content"></div>
+    </li>
+  </ul>
+</div>

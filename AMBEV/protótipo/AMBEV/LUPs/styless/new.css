@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  background-color: #3f51b5;
+}
+
+.box {
+  display: block;
+  width: 500px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+}
+
+.list {
+  list-style: none;
+}
+
+.list-item {
+}
+
+.list-item .list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px 15px 25px;
+  border-top: 1px solid #cccccc;
+}
+
+.list-header .list-title {
+  font-size: 14pt;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.list-item .list-header .list-header .list-icon {
+  color: #444444;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.list-item .list-content {
+  display: none;
+  padding: 15px;
+}
+
+.list-item .list-content.actived {
+  display: block;
+}
+
+.list-item .list-content > p {
+}

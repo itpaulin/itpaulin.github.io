@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  background-color: #f5eeb1;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+}
+h1 {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+li {
+  text-align: center;
+  font-style: normal;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.box a ul {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#armazem {
+  text-emphasis-color: white;
+  text-decoration: none;
+}
+
+#armazemT h2 {
+}
+
+.title {
+  text-align: center;
+}
+
+#armazem h2 {
+  color: white;
+  -webkit-box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff,
+    20px 0px 0px -10px #ffffff, -20px 0px 0px -10px #ffffff,
+    0px 0px 0px 10px #ff0000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff,
+    20px 0px 0px -10px #ffffff, -20px 0px 0px -10px #ffffff,
+    0px 0px 0px 10px #ff0000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  background-color: red;
+}
+#armazem a {
+  color: red;
+}
+
+#distribuicao h2 {
+  color: white;
+  -webkit-box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff,
+    20px 0px 0px -10px #ffffff, -20px 0px 0px -10px #ffffff,
+    0px 0px 0px 10px #ff0000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff,
+    20px 0px 0px -10px #ffffff, -20px 0px 0px -10px #ffffff,
+    0px 0px 0px 10px #faf610, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  background-color: blue;
+}
+
+#distribuicao a {
+  color: blue;
+}
+
+#oficina h2 {
+  color: White;
+  -webkit-box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff,
+    20px 0px 0px -10px #ffffff, -20px 0px 0px -10px #ffffff,
+    0px 0px 0px 10px #ff0000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 20px 0px -10px #ffffff, 0px -20px 0px -10px #ffffff,
+    20px 0px 0px -10px #ffffff, -20px 0px 0px -10px #ffffff,
+    0px 0px 0px 10px #19be87, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  background-color: black;
+}
+
+#oficina a {
+  color: Black;
+}
+
+.footerA {
+  color: red;
+}
+
+.list {
+  list-style: none;
+}
+
+.list-item {
+}
+
+.list-item .list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px 15px 25px;
+}
+
+.list-header .list-title {
+  font-size: 14pt;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.list-item .list-header .list-icon {
+  color: #444444;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.list-item .list-content {
+  display: none;
+  padding: 15px;
+}
+
+.list-item .list-content.actived {
+  display: block;
+}
+
+.list-item .list-content > a {
+}

@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styless/styles.css" />
+    <link rel="stylesheet" href="./styless/search.css" />
+    <script src="./main.js" defer></script>
+    <title>LUPs</title>
+  </head>
+
+  <body>
+    <h1>LUPs AMBEV - CDD Nova Friburgo</h1>
+    <br />
+    <!-- LUPA DE PESQUISA, IMPLEMENTAR SCRIPT
+    <div class="search-box">
+      <input type="text" class="search-text" placeholder="Pesquisar..." />
+      <a class="search-btn">
+        <img
+          class="loupe-blue"
+          src="./styless/imgs/loupe-blue.svg"
+          alt=""
+          width="25px"
+          height="25px"
+        />
+        <img
+          class="loupe-white"
+          src="./styless/imgs/loupe-white.svg"
+          alt=""
+          width="25px"
+          height="25px"
+        />
+      </a>
+    </div>
+-->
+
+    <nav class="box">
+      <div id="armazem">
+        <ul class="list">
+          <li class="list-item">
+            <div class="list-header" onclick="show(0);">
+              <h2 id="armazemT" class="list-title">ARMAZÉM</h2>
+              <i class="list-icon fa-solid fa-angle-down"></i>
+            </div>
+            <div class="list-content">
+              <ul>
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP--ABASTECIMENTO-DO-GERADOR.html"
+                    >Abastecimento do Gerador</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Armazem/LUP-ABASTECIMENTO-EM-POSTO.html"
+                    >Abastecimento em Posto</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP--Autonômia-das-Empilhadeiras-NFR.html"
+                    >Autonômia das Empilhadeiras</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP--BLOQUEIO-SOPRADOR-TÉRMICO.html"
+                    >Bloqueio Soprador Térmico</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Armazem/LUP--Carregamento.html">
+                    Carregamento</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Armazem/LUP--Carregamento-da-van.html"
+                    >Carregamento da Van</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP--DESATIVAÇÃO-DA-CENTRAL-DE-ALARMES.html"
+                    >Desativação da Central de Alarmes</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Armazem/LUP--Descarregamento.html"
+                    >Descarregamento</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP--DESINFECÇÃO-DOS-CAMINHOES--COVID-19.html"
+                    >Desinfecção dos Caminhões - COVID 19</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Armazem/LUP--Empurrada.html"
+                    >Empurrada</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP--Entrada-de-Carreta-no-CDD.html"
+                    >Entrada de Carreta no CDD</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Armazem/LUP--Manuseio-BEES.html"
+                    >Manuseio BEES</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP--MANUSEIO-DE-BARRIL--CÂMARA-FRIA.html"
+                    >Manuseio de Barril - Câmara Fria</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP--ORIENTAÇÕES-ABASTECIMENTO-GLP.html"
+                    >Orientações - Abastecimento de GLP</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP--ORIENTAÇÕES-CARREGAMENTO-VAN.html"
+                    >Orientações - Carregamento da VAN</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP--ORIENTAÇÕES-DE-SEGURANÇA-COMPALETEIRAS.html"
+                    >Orientações - Trabalho com Paleteiras</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP--ORIENTAÇÕES-DE-SEGURANÇA-NO-PICKING.html"
+                    >Orientações - Segurança no Picking</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP--ORIENTAÇÕES-DE-TRABALHO-REPACK.html"
+                    >Orientações - Trabalho no Repack</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP-RETIRADA-DINHEIRO-CAMINHÕES.html"
+                    >Retirada de Dinheiro do Caminhão</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Armazem/LUP--MANUTENÇÃO-DO-GERADOR.html"
+                    >SAM/LOTO - Manutenção do Gerador</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP--SAM-LOTO-CASA-DE-BOMBAS.html"
+                    >SAM/LOTO - Casa de Bombas</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Armazem/LUP--Repack.html"
+                    >Trabalho no Repack</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Armazem/LUP--Saroba.html"
+                    >Trabalho na Saroba</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Armazem/LUP--TROCA-FILME-REPACK.html"
+                    >Troca de Filme Repack</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Armazem/LUP-TROCA-DE-P20.html"
+                    >Troca de P20</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP--USO-DA-ESCADA-PLATAFORMA.html"
+                    >Uso de Escada Plataforma</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP--USO-DO-LEVANTADOR-DE-BAIAS.html"
+                    >Uso do Levantador de Baias</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP-Uso-do-Alongador-de-Garfo--Empilhadeira.html"
+                    >Uso do Alongador de Garfo</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Armazem/LUP-UTILIZAÇÃO-DE-PALETEIRAS.html"
+                    >Utilização de Paleteiras</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <br />
+      <div id="distribuicao">
+        <ul class="list">
+          <li class="list-item">
+            <div class="list-header" onclick="show(1);">
+              <h2 class="list-title">DISTRIBUIÇÃO</h2>
+              <i class="list-icon fa-solid fa-angle-down"></i>
+            </div>
+            <div class="list-content">
+              <ul>
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--AUXÍLIO-EM-MANOBRA.html"
+                    >Auxílio em Manobra</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--Acionamento-Socorro.html"
+                    >Acionamento de Socorro</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Distribuicao/LUP--Ajuste-Tracking.html"
+                    >Ajuste Tracking</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--AVALIAÇÃO-DE-PDVs-CRÍTICOS.html"
+                    >Avaliação de PDVs Críticos</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUPs--Bees-MarketPlace--Destilado.html"
+                    >Bees MarketPlace Destilado</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUPs--Bees-MarketPlace--Grãos.html"
+                    >Bees MarketPlace Grãos</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUPs--Bees-MarketPlace--Laticíneos.html"
+                    >Bees MarketPlace Laticíneos</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP-CHECK-LIST-DO-MOTORISTA--28-PASSOS.html"
+                    >Check List do Motorista - Saída</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--COLOCAÇÃO-DO-CARRINHO-NO-CAMINHÃO.html"
+                    >Colocação de Carrinhos nos Caminhões</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Distribuicao/LUP--DIREÇÃO-ECONÔMICA.html"
+                    >Direção Econômica</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--Empilhamento-na-Entrega.html"
+                    >Empilhamento na Entrega</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--Escalação-de-Equipes.html"
+                    >Escalação de Equipes</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Distribuicao/LUP--Entrega-do-Bees.html"
+                    >Entrega do Bees</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--FECHAMENTO-DE-BAIAS.html"
+                    >Fechamento de Baias</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--Fechamento-Financeiro.html"
+                    >Fechamento Financeiro</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Distribuicao/LUP--Foxtrot.html"
+                    >Foxtrot</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--MOVIMENTAÇÃO-DE-CAIXAS-DE-600.html"
+                    >Movimentação de Caixas de 600</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--ORIENTAÇÕES-ENTREGA-VAN.html"
+                    >Orientações - Entrega VAN</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Distribuicao/LUP--PADRÃO-DE-BLITZ.html"
+                    >Padrão de Blitz</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--Preparação-para-Matinal.html"
+                    >Preparação para Matinal</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Distribuicao/LUP--Prestação-Física.html"
+                    >Prestação Física</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Distribuicao/LUP--Processo-de-Troca.html"
+                    >Processo de Troca</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Distribuicao/LUP--Qualidade.html"
+                    >Qualidade</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--Qualidade-na-entrega-+-Padrão-por-produtos.html"
+                    >Qualidade na entrega + Padrão por produtos</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Distribuicao/LUP--Repasse.html"
+                    >Repasse</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Distribuicao/LUP--Segurança-na-Rota.html"
+                    >Segurança na Rota</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--Solicitação-de-Manutenção-do-carrinho.html"
+                    >Solicitação de Manutenção do Carrinho</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--Solicitação-de-Troca-de-EPI_s.html"
+                    >Solicitação de Troca de EPIs</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--SUBIR-E-DESCER-DE-PLATAFORMA.html"
+                    >Subir e Descer da Plataforma</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Distribuicao/LUP--TeamViewer-CME.html"
+                    >TeamViewer CME</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--Termino-da-Matinal-.html"
+                    >Termino da Matinal</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--Tratativa-de-Devolução.html"
+                    >Tratativa de Devolução</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Distribuicao/LUP--Tratativa-de-DQI.html"
+                    >Tratativa de DQI</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Distribuicao/LUP--Validação-de-Troca-no-Retorno.html"
+                    >Validação de Troca no Retorno</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <br />
+      <div id="oficina">
+        <ul class="list">
+          <li class="list-item">
+            <div class="list-header" onclick="show(2);">
+              <h2 class="list-title">OFICINA</h2>
+              <i class="list-icon fa-solid fa-angle-down"></i>
+            </div>
+
+            <div class="list-content">
+              <ul>
+                <li>
+                  <a href="./LUPs_html/Oficina/LUP--ABASTECIMENTO-DE-ARLA.html"
+                    >Abastecimento com ARLA</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Oficina/LUP--CALIBRAGEM-CARRINHOS.html"
+                    >Calibragem Pneus dos Carrinhos</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Oficina/LUP--Descabinar.html"
+                    >Como Descabinar os Caminhões</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Oficina/LUP--DESTRAVAMENTO-DAS-BAIAS.html"
+                    >Destravamento das Baias</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Oficina/LUP--INSPEÇÃO-DA-CAIXA-DE-MARCHAS.html"
+                    >Inspeção da Caixa de Marchas</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Oficina/LUP--INSTALAÇÃO-DE-PUXADORES-DE-PORTAS.html"
+                    >Instalação de Puxadores das Baias</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Oficina/LUP--MANUTENÇÃO-CORRETIVA-DE-RETORNO.html"
+                    >Manutenção Corretiva de Retorno</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Oficina/LUP--MANUTENÇÃO-DE-BAIAS.html"
+                    >Manutenção de Baias</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Oficina/LUP--Manutenção-do-compressor-(drenagem)-NFR.html"
+                    >Manutenção do Compressor</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Oficina/LUP--ORIENTAÇÕES-SEGURANÇA-OFICINA.html"
+                    >Orientações - Segurança na Oficina</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Oficina/LUP--ORIENTAÇÕES-SEGURANÇA-OFICINA-EMPILHADEIRA.html"
+                    >Orientações - Segurança Oficina de Empilhadeiras</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Oficina/LUP--DESCARTE-DE-ÓLEO.html">
+                    Retirada e Descarte de Óleo</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Oficina/LUP--TROCA-CUICA-DE-FREIO.html"
+                    >Troca da Cuica de Freio</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Oficina/LUP--TROCA-DE-BATERIA.html"
+                    >Troca de Bateria</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Oficina/LUP--TROCA-DE-LÂMPADA.html"
+                    >Troca de Lâmpada</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Oficina/LUP-TROCA-DE-ÓLEO.html"
+                    >Troca de Óleo</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Oficina/LUP--TROCA-DE-RODAS.html"
+                    >Troca de Rodas</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Oficina/LUP--TROCA-DO-CONJUNTO-BALANCIN.html"
+                    >Troca do Conjunto Balancin</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Oficina/LUP--TROCA-MOTOR-DE-PARTIDA.html"
+                    >Troca do Motor de Partida</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Oficina/LUP--LAVA-OLHOS.html"
+                    >Uso de Lava Olhos - Time de Limpeza</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Oficina/LUP--Graxeira.html"
+                    >Uso da Graxeira</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Oficina/LUP--PARAFUSADEIRA-PNEUMÁTICA.html"
+                    >Uso da Parafusadeira Pneumática</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Oficina/LUP--REBITADEIRA-DA-SAPATA-DE-FREIO.html"
+                    >Uso da Rebitadeira de Sapata de Freio</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Oficina/LUP--SOLDA.html">Uso da Solda</a>
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Oficina/Uso-de-Chuveiro-x-Lava-Olhos-Oficina.html"
+                    >Uso de Chuveiro / Lava Olhos</a
+                  >
+                </li>
+
+                <li>
+                  <a href="./LUPs_html/Oficina/LUP--MARCADOR-DE-PNEU.html"
+                    >Uso de Marcador de Pneu</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="./LUPs_html/Oficina/LUP--USO-DO-MACACO-HIDRAULICO-NFR.html"
+                    >Uso do Macaco Hidráulico</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    class="item-content"
+                    href="./LUPs_html/Oficina/LUP--USO-DO-ESMERIL.html"
+                    >Uso do Esmeril</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    class="item-content"
+                    href="./LUPs_html/Oficina/LUP--MILIMETRAGEM-DOS-PNEUS.html"
+                    >Verificação da Milimetragem dos Pneus</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    class="item-content"
+                    href="./LUPs_html/Oficina/LUP--MILIMETRAGEM-PNEUS-EMPILHADEIRA.html"
+                    >Verificação da Milimetragem dos Pneus da Empilhadeira</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br />
+    <footer>
+      <p>
+        Para acréscimo de novas LUPs, entre em contato com TST Allister
+        <a class="footerA" href="https://wa.me/+5522992117779"
+          >(22)99211-7779</a
+        >
+      </p>
+    </footer>
+
+    <script type="text/javascript">
+      function show(n) {
+        const list_content = document.getElementsByClassName("list-content");
+
+        list_content[n].classList.toggle("actived");
+      }
+    </script>
+  </body>
+</html>
