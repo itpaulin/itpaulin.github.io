@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather";
+}
+body {
+  background: rgb(42, 232, 105);
+  background: linear-gradient(
+    90deg,
+    rgba(42, 232, 105, 1) 0%,
+    rgba(25, 224, 122, 1) 29%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.box {
+  margin-top: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: solid 1px;
+  padding-bottom: 20px;
+}
+.title {
+  font-size: 35px;
+}
+
+#img-ambev {
+  width: 150px;
+  display: block;
+  margin: 30px auto;
+}
+
+.select-cdd {
+  display: none;
+}
+
+.select-cdd .submit-geo.actived {
+  display: block;
+}
+
+.select-cdd .submit-geo.actived > .select-cdd {
+  display: block;
+}
+
+.btn-end {
+  display: block;
+  padding: 10px 10px 10px 10px;
+}
