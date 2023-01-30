@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    margin: 0;
+}
+h1{
+    color: red;
+    margin-left: 20px;
+}
+
+figure img{
+    padding-left: 0px;
+}
+
+#body{
+    background-color: #dddddd;
+}
+
+#img {
+    margin-left: 40px;
+    width: 170px;
+}
+
+#table {
+    width: 380px;
+    height: 230px;
+    margin: 0px;
+}
+
+.titulo {
+    background-color: rgb(255, 204, 102);
+    color: red;
+}
+
+.nottitulo {
+    background-color: rgb(241, 241, 208);
+    color: red;
+    text-align: center;
+}
